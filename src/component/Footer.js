@@ -5,7 +5,7 @@ const Footer = () => {
         <div>
             <hr/>
             <center>
-                <h2>&copy;Edureka 2020</h2>
+                {/* <h2>&copy;Edureka 2020</h2> */}
             </center>
         </div>
     )

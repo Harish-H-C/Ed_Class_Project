@@ -21,6 +21,10 @@ const Header = () => {
                                     {/* <li><Link to ="/viewbookings">Bookings</Link></li>
                                     <li><Link to ="/hotels">Hotels</Link></li> */}
                                 </ul>
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><Link to ="/"><span class="glyphicon glyphicon-user"></span> Sign Up</Link></li>
+                                    <li><Link to ="/login"><span class="glyphicon glyphicon-log-in"></span> Login</Link></li>
+                                </ul>
                             </div>
                     </div>
                 </nav>
