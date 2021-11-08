@@ -113,3 +113,45 @@ body{
     color:gray;
     font-size:14px
 }
+
+
+/* @media screen and (max-width:1600px) {
+    body{
+        background-color: rgb(226, 141, 62);
+    } 
+}
+
+@media screen and (max-width:1400px) {
+    body{
+        background-color: lightblue;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    body{
+        background-color:lightgoldenrodyellow;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    body{
+        background-color:lightgreen;
+    }
+}
+
+@media screen and (max-width:800px) {
+    body{
+        background-color:lightsalmon;
+    } 
+    .locationSelector{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body{
+        background-color: lightpink;
+    } 
+} */

@@ -34,8 +34,11 @@ class PlaceOrder extends Component{
             },
             body:JSON.stringify(this.state)
         })
-        .then(this.props.history.push('/viewbookings?message=success'))
-        .catch(this.props.history.push('/viewbookings?message=fail'))
+        // .then(this.props.history.push('/viewbookings?message=success'))
+        // .catch(this.props.history.push('/viewbookings?message=fail'))
+        .then(this.props.history.push('/home'))
+        .catch(this.props.history.push('/home'))
+        
     }
     
 

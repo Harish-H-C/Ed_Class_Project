@@ -22,7 +22,7 @@ const QuickSearch = (props) => {
                                 </div>
                             </div>
                         </div>
-                    </Link>
+                    </Link> 
                 )
             })
         }
