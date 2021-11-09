@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import axios from 'axios';
+// import axios from 'axios';
 
-const url = "https://developerfunnel.herokuapp.com/hotelsdetails"
+// const url = "https://developerfunnel.herokuapp.com/hotelsdetails"
 const bookingUrl="http://localhost:8901/register"
 
 class PlaceOrder extends Component{
@@ -26,6 +26,9 @@ class PlaceOrder extends Component{
 
     handleSubmit = () => {
         console.log(this.state)
+        // if (this.state.name !== "" && this.state.phone !=="" ){//if email and password is not enterd then don't allow to dashboard page
+        //     this.props.history.push('/home')
+        //     }
         fetch(bookingUrl,{
             method:'POST',
             headers:{
@@ -64,12 +67,12 @@ class PlaceOrder extends Component{
                         <div className="form-group">
                             <label>Name</label>
                             <input type="text" value={this.state.name}
-                             className="form-control" onChange={this.handleChangeName}/>
+                             className="form-control" onChange={this.handleChangeName} required/>
                         </div>
                         <div className="form-group">
                             <label>Phone</label>
                             <input type="text" value={this.state.phone}
-                             className="form-control" onChange={this.handleChangePhone}/>
+                             className="form-control" onChange={this.handleChangePhone} required/>
                         </div>
                         <Link to={`/details/${this.props.match.params.id}`} className="btn btn-danger">Back</Link>
                         &nbsp;
